@@ -8862,7 +8862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d30f29b15c7d54a929c9bcfb64fe3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonName: com.eykeystudio.noads
+  buttonName: com.-***
   data: {fileID: 11400000, guid: 68f92a9cc9b41d845a07eb915fdffb58, type: 2}
 --- !u!4 &1161102579
 Transform:

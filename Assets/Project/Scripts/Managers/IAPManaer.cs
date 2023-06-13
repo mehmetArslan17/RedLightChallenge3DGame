@@ -5,7 +5,7 @@ using UnityEngine.Purchasing;
 
 public class IAPManaer : MonoBehaviour
 {
-    public string buttonName= "com.eykeystudio.noads";
+    public string buttonName= "com.e***";
     [SerializeField] DataScripts data;
     public void OnPurchaseComplate(Product product)
     {
