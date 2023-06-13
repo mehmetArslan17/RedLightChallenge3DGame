@@ -1,0 +1,2103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992da342a0bc008488de182ec38bbdeb, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  adsOn: 0
+  vibrationOn: 1
+  tutorialCount: 0
+  baseSpeed: 0.3
+  speed: 0.3
+  playCount: 0
+  speedRise: 0.01
+  money: 0
+  level: 1
+  score: 0
+  baseScore: 50
+  redChance: 0
+  yellowChance: 0
+  incomeLevel: 1
+  highscore: 0
+  oldhighscore: 0
+  redChanceMoney: 80
+  yellowChanceMoney: 80
+  incomeMoney: 100
+  redChanceRise: 0
+  yellowChanceRise: 0
+  incomeRise: 1
+  redChanceMoneyMultiple: 1.1
+  yellowChanceMoneyMultiple: 1.2
+  incomeMoneyMultiple: 1.2
+  redChanceBase: 0
+  yellowChanceBase: 0
+  incomeBase: 0
+  hightLevel: 0
+  redChanceBaseMoney: 80
+  yellowChanceBaseMoney: 90
+  incomeBaseMoney: 70
+  playerHightScore:
+    score: 0
+    name: User
+  hightScoreList:
+  - score: 123123421
+    name: NewPlayer106
+  - score: 1312321
+    name: NewPlayer139
+  - score: 749958
+    name: NewPlayer8
+  - score: 749666
+    name: NewPlayer158
+  - score: 747317
+    name: NewPlayer79
+  - score: 746896
+    name: NewPlayer96
+  - score: 746734
+    name: NewPlayer186
+  - score: 744675
+    name: NewPlayer178
+  - score: 743847
+    name: NewPlayer158
+  - score: 743601
+    name: NewPlayer174
+  - score: 743501
+    name: NewPlayer194
+  - score: 741250
+    name: NewPlayer73
+  - score: 740090
+    name: NewPlayer16
+  - score: 739745
+    name: NewPlayer113
+  - score: 738715
+    name: NewPlayer78
+  - score: 738285
+    name: NewPlayer122
+  - score: 738223
+    name: NewPlayer86
+  - score: 738209
+    name: NewPlayer173
+  - score: 738050
+    name: NewPlayer187
+  - score: 737732
+    name: NewPlayer91
+  - score: 737686
+    name: NewPlayer44
+  - score: 737351
+    name: NewPlayer188
+  - score: 736733
+    name: NewPlayer138
+  - score: 736362
+    name: NewPlayer190
+  - score: 735969
+    name: NewPlayer118
+  - score: 735791
+    name: NewPlayer34
+  - score: 735569
+    name: NewPlayer102
+  - score: 735266
+    name: NewPlayer145
+  - score: 735083
+    name: NewPlayer112
+  - score: 733731
+    name: NewPlayer139
+  - score: 733286
+    name: NewPlayer156
+  - score: 733188
+    name: NewPlayer118
+  - score: 732505
+    name: NewPlayer184
+  - score: 731968
+    name: NewPlayer164
+  - score: 729691
+    name: NewPlayer17
+  - score: 729146
+    name: NewPlayer55
+  - score: 727568
+    name: NewPlayer5
+  - score: 726120
+    name: NewPlayer24
+  - score: 725391
+    name: NewPlayer91
+  - score: 724853
+    name: NewPlayer58
+  - score: 724281
+    name: NewPlayer189
+  - score: 723102
+    name: NewPlayer136
+  - score: 722941
+    name: NewPlayer83
+  - score: 721573
+    name: NewPlayer152
+  - score: 721224
+    name: NewPlayer95
+  - score: 721180
+    name: NewPlayer102
+  - score: 721175
+    name: NewPlayer14
+  - score: 720687
+    name: NewPlayer29
+  - score: 720525
+    name: NewPlayer153
+  - score: 720370
+    name: NewPlayer170
+  - score: 720273
+    name: NewPlayer11
+  - score: 720271
+    name: NewPlayer181
+  - score: 718885
+    name: NewPlayer23
+  - score: 717792
+    name: NewPlayer61
+  - score: 717745
+    name: NewPlayer108
+  - score: 717057
+    name: NewPlayer78
+  - score: 715684
+    name: NewPlayer11
+  - score: 715436
+    name: NewPlayer193
+  - score: 714771
+    name: NewPlayer8
+  - score: 714217
+    name: NewPlayer86
+  - score: 712970
+    name: NewPlayer104
+  - score: 712634
+    name: NewPlayer34
+  - score: 712507
+    name: NewPlayer188
+  - score: 711313
+    name: NewPlayer139
+  - score: 710889
+    name: NewPlayer43
+  - score: 710499
+    name: NewPlayer170
+  - score: 710316
+    name: NewPlayer171
+  - score: 708150
+    name: NewPlayer96
+  - score: 706263
+    name: NewPlayer75
+  - score: 705580
+    name: NewPlayer8
+  - score: 705208
+    name: NewPlayer162
+  - score: 704831
+    name: NewPlayer132
+  - score: 704698
+    name: NewPlayer161
+  - score: 704198
+    name: NewPlayer11
+  - score: 703755
+    name: NewPlayer155
+  - score: 703528
+    name: NewPlayer46
+  - score: 703143
+    name: NewPlayer166
+  - score: 702230
+    name: NewPlayer152
+  - score: 701745
+    name: NewPlayer69
+  - score: 700731
+    name: NewPlayer64
+  - score: 698962
+    name: NewPlayer191
+  - score: 698140
+    name: NewPlayer152
+  - score: 696969
+    name: NewPlayer55
+  - score: 696183
+    name: NewPlayer58
+  - score: 695087
+    name: NewPlayer125
+  - score: 694125
+    name: NewPlayer155
+  - score: 693876
+    name: NewPlayer191
+  - score: 693568
+    name: NewPlayer91
+  - score: 692317
+    name: NewPlayer143
+  - score: 691408
+    name: NewPlayer10
+  - score: 690787
+    name: NewPlayer112
+  - score: 689971
+    name: NewPlayer116
+  - score: 689852
+    name: NewPlayer10
+  - score: 689523
+    name: NewPlayer195
+  - score: 688748
+    name: NewPlayer102
+  - score: 687796
+    name: NewPlayer92
+  - score: 686601
+    name: NewPlayer169
+  - score: 686406
+    name: NewPlayer137
+  - score: 685952
+    name: NewPlayer115
+  - score: 685491
+    name: NewPlayer1
+  - score: 684785
+    name: NewPlayer77
+  - score: 683352
+    name: NewPlayer62
+  - score: 682768
+    name: NewPlayer154
+  - score: 682155
+    name: NewPlayer113
+  - score: 681633
+    name: NewPlayer88
+  - score: 679858
+    name: NewPlayer166
+  - score: 679477
+    name: NewPlayer108
+  - score: 677394
+    name: NewPlayer46
+  - score: 676884
+    name: NewPlayer112
+  - score: 676838
+    name: NewPlayer154
+  - score: 676547
+    name: NewPlayer139
+  - score: 676517
+    name: NewPlayer83
+  - score: 676353
+    name: NewPlayer65
+  - score: 676202
+    name: NewPlayer176
+  - score: 676198
+    name: NewPlayer11
+  - score: 676099
+    name: NewPlayer98
+  - score: 675951
+    name: NewPlayer142
+  - score: 675883
+    name: NewPlayer164
+  - score: 675436
+    name: NewPlayer191
+  - score: 674299
+    name: NewPlayer45
+  - score: 674223
+    name: NewPlayer7
+  - score: 673939
+    name: NewPlayer145
+  - score: 673170
+    name: NewPlayer71
+  - score: 672700
+    name: NewPlayer36
+  - score: 672432
+    name: NewPlayer91
+  - score: 671739
+    name: NewPlayer58
+  - score: 671043
+    name: NewPlayer112
+  - score: 670918
+    name: NewPlayer38
+  - score: 670827
+    name: NewPlayer174
+  - score: 670426
+    name: NewPlayer102
+  - score: 670266
+    name: NewPlayer8
+  - score: 669742
+    name: NewPlayer22
+  - score: 669483
+    name: NewPlayer162
+  - score: 668788
+    name: NewPlayer28
+  - score: 668166
+    name: NewPlayer7
+  - score: 667533
+    name: NewPlayer177
+  - score: 667493
+    name: NewPlayer83
+  - score: 667149
+    name: NewPlayer86
+  - score: 664462
+    name: NewPlayer24
+  - score: 662120
+    name: NewPlayer198
+  - score: 661416
+    name: NewPlayer157
+  - score: 660906
+    name: NewPlayer98
+  - score: 659982
+    name: NewPlayer177
+  - score: 659033
+    name: NewPlayer69
+  - score: 658245
+    name: NewPlayer177
+  - score: 657838
+    name: NewPlayer21
+  - score: 657724
+    name: NewPlayer197
+  - score: 655739
+    name: NewPlayer44
+  - score: 655572
+    name: NewPlayer97
+  - score: 654272
+    name: NewPlayer40
+  - score: 654224
+    name: NewPlayer133
+  - score: 654123
+    name: NewPlayer63
+  - score: 652531
+    name: NewPlayer88
+  - score: 652460
+    name: NewPlayer16
+  - score: 651665
+    name: NewPlayer195
+  - score: 651081
+    name: NewPlayer62
+  - score: 650016
+    name: NewPlayer163
+  - score: 649915
+    name: NewPlayer81
+  - score: 649872
+    name: NewPlayer195
+  - score: 648149
+    name: NewPlayer147
+  - score: 646792
+    name: NewPlayer57
+  - score: 643956
+    name: NewPlayer137
+  - score: 643932
+    name: NewPlayer104
+  - score: 643754
+    name: NewPlayer178
+  - score: 642810
+    name: NewPlayer174
+  - score: 640947
+    name: NewPlayer145
+  - score: 640847
+    name: NewPlayer140
+  - score: 640719
+    name: NewPlayer194
+  - score: 639883
+    name: NewPlayer130
+  - score: 638399
+    name: NewPlayer61
+  - score: 636403
+    name: NewPlayer63
+  - score: 635209
+    name: NewPlayer184
+  - score: 635139
+    name: NewPlayer144
+  - score: 634960
+    name: NewPlayer14
+  - score: 634331
+    name: NewPlayer35
+  - score: 633731
+    name: NewPlayer4
+  - score: 632932
+    name: NewPlayer128
+  - score: 632509
+    name: NewPlayer107
+  - score: 630933
+    name: NewPlayer34
+  - score: 630404
+    name: NewPlayer144
+  - score: 629481
+    name: NewPlayer142
+  - score: 628744
+    name: NewPlayer87
+  - score: 628619
+    name: NewPlayer136
+  - score: 627544
+    name: NewPlayer84
+  - score: 624939
+    name: NewPlayer22
+  - score: 624562
+    name: NewPlayer86
+  - score: 624153
+    name: NewPlayer166
+  - score: 622257
+    name: NewPlayer3
+  - score: 621597
+    name: NewPlayer87
+  - score: 621556
+    name: NewPlayer71
+  - score: 621245
+    name: NewPlayer80
+  - score: 621240
+    name: NewPlayer98
+  - score: 621222
+    name: NewPlayer73
+  - score: 620559
+    name: NewPlayer75
+  - score: 620128
+    name: NewPlayer45
+  - score: 619345
+    name: NewPlayer51
+  - score: 618493
+    name: NewPlayer156
+  - score: 618082
+    name: NewPlayer187
+  - score: 617680
+    name: NewPlayer169
+  - score: 617524
+    name: NewPlayer167
+  - score: 617479
+    name: NewPlayer127
+  - score: 616916
+    name: NewPlayer73
+  - score: 615985
+    name: NewPlayer89
+  - score: 615542
+    name: NewPlayer145
+  - score: 614316
+    name: NewPlayer26
+  - score: 613216
+    name: NewPlayer59
+  - score: 612990
+    name: NewPlayer56
+  - score: 612234
+    name: NewPlayer82
+  - score: 611934
+    name: NewPlayer172
+  - score: 611714
+    name: NewPlayer167
+  - score: 611184
+    name: NewPlayer55
+  - score: 608825
+    name: NewPlayer184
+  - score: 608346
+    name: NewPlayer97
+  - score: 607793
+    name: NewPlayer31
+  - score: 607610
+    name: NewPlayer155
+  - score: 607334
+    name: NewPlayer111
+  - score: 607103
+    name: NewPlayer113
+  - score: 606134
+    name: NewPlayer175
+  - score: 605468
+    name: NewPlayer111
+  - score: 603234
+    name: NewPlayer10
+  - score: 603011
+    name: NewPlayer80
+  - score: 602424
+    name: NewPlayer59
+  - score: 602035
+    name: NewPlayer78
+  - score: 602017
+    name: NewPlayer183
+  - score: 600936
+    name: NewPlayer190
+  - score: 600680
+    name: NewPlayer72
+  - score: 599492
+    name: NewPlayer106
+  - score: 599114
+    name: NewPlayer142
+  - score: 594093
+    name: NewPlayer26
+  - score: 593704
+    name: NewPlayer193
+  - score: 592594
+    name: NewPlayer130
+  - score: 590900
+    name: NewPlayer176
+  - score: 589699
+    name: NewPlayer194
+  - score: 589442
+    name: NewPlayer189
+  - score: 588609
+    name: NewPlayer90
+  - score: 587884
+    name: NewPlayer119
+  - score: 586683
+    name: NewPlayer73
+  - score: 586032
+    name: NewPlayer29
+  - score: 585871
+    name: NewPlayer119
+  - score: 585793
+    name: NewPlayer108
+  - score: 584210
+    name: NewPlayer116
+  - score: 583691
+    name: NewPlayer32
+  - score: 583209
+    name: NewPlayer70
+  - score: 583206
+    name: NewPlayer180
+  - score: 582001
+    name: NewPlayer65
+  - score: 580545
+    name: NewPlayer126
+  - score: 580027
+    name: NewPlayer116
+  - score: 579906
+    name: NewPlayer88
+  - score: 579448
+    name: NewPlayer161
+  - score: 579246
+    name: NewPlayer119
+  - score: 576337
+    name: NewPlayer64
+  - score: 575706
+    name: NewPlayer107
+  - score: 574777
+    name: NewPlayer122
+  - score: 573432
+    name: NewPlayer121
+  - score: 573342
+    name: NewPlayer121
+  - score: 571594
+    name: NewPlayer165
+  - score: 571466
+    name: NewPlayer17
+  - score: 571055
+    name: NewPlayer88
+  - score: 569950
+    name: NewPlayer69
+  - score: 565581
+    name: NewPlayer130
+  - score: 564951
+    name: NewPlayer5
+  - score: 564582
+    name: NewPlayer122
+  - score: 564342
+    name: NewPlayer50
+  - score: 564278
+    name: NewPlayer161
+  - score: 563521
+    name: NewPlayer131
+  - score: 562300
+    name: NewPlayer110
+  - score: 561044
+    name: NewPlayer166
+  - score: 560989
+    name: NewPlayer197
+  - score: 560326
+    name: NewPlayer115
+  - score: 560060
+    name: NewPlayer110
+  - score: 559779
+    name: NewPlayer133
+  - score: 559518
+    name: NewPlayer86
+  - score: 559424
+    name: NewPlayer91
+  - score: 558494
+    name: NewPlayer3
+  - score: 556489
+    name: NewPlayer58
+  - score: 556249
+    name: NewPlayer180
+  - score: 554794
+    name: NewPlayer53
+  - score: 554063
+    name: NewPlayer129
+  - score: 553897
+    name: NewPlayer161
+  - score: 552459
+    name: NewPlayer148
+  - score: 552343
+    name: NewPlayer114
+  - score: 551421
+    name: NewPlayer92
+  - score: 550407
+    name: NewPlayer91
+  - score: 549549
+    name: NewPlayer109
+  - score: 548949
+    name: NewPlayer49
+  - score: 548629
+    name: NewPlayer132
+  - score: 548393
+    name: NewPlayer113
+  - score: 547951
+    name: NewPlayer96
+  - score: 547791
+    name: NewPlayer95
+  - score: 546820
+    name: NewPlayer67
+  - score: 546478
+    name: NewPlayer166
+  - score: 543320
+    name: NewPlayer187
+  - score: 542660
+    name: NewPlayer130
+  - score: 542455
+    name: NewPlayer43
+  - score: 541473
+    name: NewPlayer14
+  - score: 540319
+    name: NewPlayer50
+  - score: 540296
+    name: NewPlayer180
+  - score: 540204
+    name: NewPlayer182
+  - score: 539899
+    name: NewPlayer86
+  - score: 538093
+    name: NewPlayer97
+  - score: 537564
+    name: NewPlayer152
+  - score: 536676
+    name: NewPlayer10
+  - score: 532992
+    name: NewPlayer64
+  - score: 532525
+    name: NewPlayer35
+  - score: 532389
+    name: NewPlayer145
+  - score: 531173
+    name: NewPlayer78
+  - score: 530740
+    name: NewPlayer198
+  - score: 530017
+    name: NewPlayer194
+  - score: 529635
+    name: NewPlayer159
+  - score: 529501
+    name: NewPlayer6
+  - score: 529403
+    name: NewPlayer54
+  - score: 527651
+    name: NewPlayer136
+  - score: 527505
+    name: NewPlayer121
+  - score: 526310
+    name: NewPlayer197
+  - score: 525708
+    name: NewPlayer98
+  - score: 524891
+    name: NewPlayer100
+  - score: 524759
+    name: NewPlayer171
+  - score: 524610
+    name: NewPlayer113
+  - score: 523713
+    name: NewPlayer63
+  - score: 521938
+    name: NewPlayer79
+  - score: 521695
+    name: NewPlayer22
+  - score: 521691
+    name: NewPlayer148
+  - score: 521547
+    name: NewPlayer20
+  - score: 521058
+    name: NewPlayer132
+  - score: 520360
+    name: NewPlayer181
+  - score: 520113
+    name: NewPlayer139
+  - score: 519930
+    name: NewPlayer143
+  - score: 519811
+    name: NewPlayer192
+  - score: 519528
+    name: NewPlayer180
+  - score: 519486
+    name: NewPlayer198
+  - score: 518786
+    name: NewPlayer93
+  - score: 518381
+    name: NewPlayer76
+  - score: 517772
+    name: NewPlayer46
+  - score: 515982
+    name: NewPlayer32
+  - score: 515358
+    name: NewPlayer89
+  - score: 514167
+    name: NewPlayer76
+  - score: 513689
+    name: NewPlayer179
+  - score: 513234
+    name: NewPlayer189
+  - score: 513118
+    name: NewPlayer113
+  - score: 511967
+    name: NewPlayer57
+  - score: 510946
+    name: NewPlayer101
+  - score: 510257
+    name: NewPlayer12
+  - score: 510161
+    name: NewPlayer109
+  - score: 508911
+    name: NewPlayer169
+  - score: 508613
+    name: NewPlayer51
+  - score: 508261
+    name: NewPlayer30
+  - score: 506753
+    name: NewPlayer10
+  - score: 506751
+    name: NewPlayer183
+  - score: 505197
+    name: NewPlayer59
+  - score: 505168
+    name: NewPlayer77
+  - score: 504381
+    name: NewPlayer136
+  - score: 503427
+    name: NewPlayer163
+  - score: 502684
+    name: NewPlayer109
+  - score: 502384
+    name: NewPlayer81
+  - score: 501705
+    name: NewPlayer153
+  - score: 500808
+    name: NewPlayer122
+  - score: 500711
+    name: NewPlayer102
+  - score: 500105
+    name: NewPlayer91
+  - score: 499384
+    name: NewPlayer140
+  - score: 497993
+    name: NewPlayer76
+  - score: 495932
+    name: NewPlayer92
+  - score: 495836
+    name: NewPlayer100
+  - score: 495121
+    name: NewPlayer57
+  - score: 495043
+    name: NewPlayer101
+  - score: 494960
+    name: NewPlayer23
+  - score: 494510
+    name: NewPlayer131
+  - score: 493899
+    name: NewPlayer89
+  - score: 493142
+    name: NewPlayer133
+  - score: 492425
+    name: NewPlayer13
+  - score: 488877
+    name: NewPlayer158
+  - score: 487354
+    name: NewPlayer48
+  - score: 486624
+    name: NewPlayer87
+  - score: 486481
+    name: NewPlayer96
+  - score: 486393
+    name: NewPlayer170
+  - score: 485575
+    name: NewPlayer110
+  - score: 485112
+    name: NewPlayer79
+  - score: 483067
+    name: NewPlayer161
+  - score: 481726
+    name: NewPlayer73
+  - score: 481587
+    name: NewPlayer99
+  - score: 480867
+    name: NewPlayer101
+  - score: 480277
+    name: NewPlayer103
+  - score: 480270
+    name: NewPlayer53
+  - score: 478923
+    name: NewPlayer21
+  - score: 478423
+    name: NewPlayer168
+  - score: 476172
+    name: NewPlayer7
+  - score: 475679
+    name: NewPlayer194
+  - score: 474130
+    name: NewPlayer114
+  - score: 474037
+    name: NewPlayer70
+  - score: 473201
+    name: NewPlayer159
+  - score: 472942
+    name: NewPlayer72
+  - score: 472819
+    name: NewPlayer97
+  - score: 472388
+    name: NewPlayer13
+  - score: 472237
+    name: NewPlayer121
+  - score: 471028
+    name: NewPlayer96
+  - score: 469360
+    name: NewPlayer149
+  - score: 468902
+    name: NewPlayer128
+  - score: 468502
+    name: NewPlayer33
+  - score: 468250
+    name: NewPlayer16
+  - score: 468155
+    name: NewPlayer192
+  - score: 468067
+    name: NewPlayer71
+  - score: 465574
+    name: NewPlayer157
+  - score: 465477
+    name: NewPlayer60
+  - score: 465469
+    name: NewPlayer163
+  - score: 465109
+    name: NewPlayer51
+  - score: 464541
+    name: NewPlayer67
+  - score: 464539
+    name: NewPlayer153
+  - score: 464236
+    name: NewPlayer80
+  - score: 464168
+    name: NewPlayer126
+  - score: 464086
+    name: NewPlayer15
+  - score: 463128
+    name: NewPlayer96
+  - score: 462573
+    name: NewPlayer151
+  - score: 460716
+    name: NewPlayer13
+  - score: 458256
+    name: NewPlayer84
+  - score: 458116
+    name: NewPlayer97
+  - score: 456098
+    name: NewPlayer66
+  - score: 455183
+    name: NewPlayer76
+  - score: 454643
+    name: NewPlayer79
+  - score: 453060
+    name: NewPlayer185
+  - score: 452530
+    name: NewPlayer104
+  - score: 452371
+    name: NewPlayer87
+  - score: 451807
+    name: NewPlayer153
+  - score: 451667
+    name: NewPlayer37
+  - score: 450593
+    name: NewPlayer2
+  - score: 450290
+    name: NewPlayer42
+  - score: 449972
+    name: NewPlayer112
+  - score: 449279
+    name: NewPlayer189
+  - score: 449047
+    name: NewPlayer150
+  - score: 448863
+    name: NewPlayer75
+  - score: 448030
+    name: NewPlayer122
+  - score: 446480
+    name: NewPlayer86
+  - score: 446234
+    name: NewPlayer16
+  - score: 446163
+    name: NewPlayer19
+  - score: 445916
+    name: NewPlayer157
+  - score: 445713
+    name: NewPlayer98
+  - score: 443645
+    name: NewPlayer96
+  - score: 443194
+    name: NewPlayer147
+  - score: 442847
+    name: NewPlayer185
+  - score: 442044
+    name: NewPlayer91
+  - score: 438050
+    name: NewPlayer160
+  - score: 437811
+    name: NewPlayer43
+  - score: 436049
+    name: NewPlayer28
+  - score: 435653
+    name: NewPlayer89
+  - score: 435638
+    name: NewPlayer110
+  - score: 435392
+    name: NewPlayer162
+  - score: 435366
+    name: NewPlayer71
+  - score: 433194
+    name: NewPlayer68
+  - score: 432301
+    name: NewPlayer25
+  - score: 431698
+    name: NewPlayer16
+  - score: 430917
+    name: NewPlayer50
+  - score: 430829
+    name: NewPlayer11
+  - score: 429367
+    name: NewPlayer129
+  - score: 428577
+    name: NewPlayer195
+  - score: 428302
+    name: NewPlayer83
+  - score: 428143
+    name: NewPlayer176
+  - score: 427410
+    name: NewPlayer121
+  - score: 425218
+    name: NewPlayer142
+  - score: 424490
+    name: NewPlayer189
+  - score: 424147
+    name: NewPlayer50
+  - score: 423074
+    name: NewPlayer11
+  - score: 422060
+    name: NewPlayer190
+  - score: 421042
+    name: NewPlayer6
+  - score: 420961
+    name: NewPlayer137
+  - score: 419750
+    name: NewPlayer167
+  - score: 419334
+    name: NewPlayer167
+  - score: 418309
+    name: NewPlayer82
+  - score: 418097
+    name: NewPlayer170
+  - score: 417649
+    name: NewPlayer143
+  - score: 416041
+    name: NewPlayer11
+  - score: 415236
+    name: NewPlayer168
+  - score: 412662
+    name: NewPlayer68
+  - score: 410345
+    name: NewPlayer61
+  - score: 408668
+    name: NewPlayer131
+  - score: 408304
+    name: NewPlayer142
+  - score: 407902
+    name: NewPlayer133
+  - score: 407317
+    name: NewPlayer193
+  - score: 405820
+    name: NewPlayer56
+  - score: 405664
+    name: NewPlayer108
+  - score: 405649
+    name: NewPlayer138
+  - score: 405541
+    name: NewPlayer35
+  - score: 405226
+    name: NewPlayer85
+  - score: 403223
+    name: NewPlayer19
+  - score: 403153
+    name: NewPlayer6
+  - score: 401415
+    name: NewPlayer181
+  - score: 401345
+    name: NewPlayer28
+  - score: 398892
+    name: NewPlayer34
+  - score: 398450
+    name: NewPlayer63
+  - score: 398325
+    name: NewPlayer186
+  - score: 396138
+    name: NewPlayer116
+  - score: 394993
+    name: NewPlayer19
+  - score: 392340
+    name: NewPlayer145
+  - score: 391674
+    name: NewPlayer188
+  - score: 388573
+    name: NewPlayer166
+  - score: 387748
+    name: NewPlayer37
+  - score: 386254
+    name: NewPlayer71
+  - score: 383757
+    name: NewPlayer60
+  - score: 383752
+    name: NewPlayer110
+  - score: 383661
+    name: NewPlayer184
+  - score: 382988
+    name: NewPlayer190
+  - score: 382954
+    name: NewPlayer51
+  - score: 382714
+    name: NewPlayer172
+  - score: 382091
+    name: NewPlayer56
+  - score: 381879
+    name: NewPlayer83
+  - score: 377861
+    name: NewPlayer54
+  - score: 377808
+    name: NewPlayer196
+  - score: 377279
+    name: NewPlayer10
+  - score: 377183
+    name: NewPlayer148
+  - score: 376899
+    name: NewPlayer47
+  - score: 375343
+    name: NewPlayer28
+  - score: 374880
+    name: NewPlayer178
+  - score: 373761
+    name: NewPlayer95
+  - score: 372821
+    name: NewPlayer157
+  - score: 372225
+    name: NewPlayer38
+  - score: 372181
+    name: NewPlayer98
+  - score: 371684
+    name: NewPlayer194
+  - score: 370699
+    name: NewPlayer89
+  - score: 370349
+    name: NewPlayer84
+  - score: 369364
+    name: NewPlayer35
+  - score: 369308
+    name: NewPlayer164
+  - score: 368962
+    name: NewPlayer184
+  - score: 368876
+    name: NewPlayer88
+  - score: 368856
+    name: NewPlayer164
+  - score: 365741
+    name: NewPlayer124
+  - score: 365466
+    name: NewPlayer18
+  - score: 365450
+    name: NewPlayer170
+  - score: 364538
+    name: NewPlayer100
+  - score: 363538
+    name: NewPlayer168
+  - score: 363378
+    name: NewPlayer164
+  - score: 362906
+    name: NewPlayer103
+  - score: 362520
+    name: NewPlayer150
+  - score: 361615
+    name: NewPlayer76
+  - score: 361555
+    name: NewPlayer18
+  - score: 360459
+    name: NewPlayer1
+  - score: 359806
+    name: NewPlayer33
+  - score: 358591
+    name: NewPlayer165
+  - score: 357918
+    name: NewPlayer94
+  - score: 356688
+    name: NewPlayer16
+  - score: 356606
+    name: NewPlayer8
+  - score: 355493
+    name: NewPlayer13
+  - score: 354877
+    name: NewPlayer93
+  - score: 354648
+    name: NewPlayer152
+  - score: 354246
+    name: NewPlayer122
+  - score: 354029
+    name: NewPlayer140
+  - score: 353109
+    name: NewPlayer108
+  - score: 352970
+    name: NewPlayer102
+  - score: 351985
+    name: NewPlayer34
+  - score: 351843
+    name: NewPlayer143
+  - score: 350845
+    name: NewPlayer117
+  - score: 350308
+    name: NewPlayer16
+  - score: 350210
+    name: NewPlayer47
+  - score: 348161
+    name: NewPlayer130
+  - score: 347193
+    name: NewPlayer134
+  - score: 347026
+    name: NewPlayer164
+  - score: 346439
+    name: NewPlayer141
+  - score: 345759
+    name: NewPlayer43
+  - score: 345532
+    name: NewPlayer74
+  - score: 345352
+    name: NewPlayer86
+  - score: 344898
+    name: NewPlayer4
+  - score: 344551
+    name: NewPlayer35
+  - score: 344114
+    name: NewPlayer4
+  - score: 344035
+    name: NewPlayer48
+  - score: 343956
+    name: NewPlayer3
+  - score: 342911
+    name: NewPlayer113
+  - score: 342340
+    name: NewPlayer28
+  - score: 340902
+    name: NewPlayer120
+  - score: 340784
+    name: NewPlayer192
+  - score: 337508
+    name: NewPlayer150
+  - score: 335962
+    name: NewPlayer134
+  - score: 333959
+    name: NewPlayer146
+  - score: 331250
+    name: NewPlayer149
+  - score: 331167
+    name: NewPlayer96
+  - score: 330451
+    name: NewPlayer183
+  - score: 330294
+    name: NewPlayer64
+  - score: 329589
+    name: NewPlayer47
+  - score: 329167
+    name: NewPlayer158
+  - score: 328792
+    name: NewPlayer82
+  - score: 328405
+    name: NewPlayer122
+  - score: 327843
+    name: NewPlayer174
+  - score: 327808
+    name: NewPlayer149
+  - score: 326668
+    name: NewPlayer60
+  - score: 325456
+    name: NewPlayer61
+  - score: 324666
+    name: NewPlayer133
+  - score: 323264
+    name: NewPlayer24
+  - score: 323174
+    name: NewPlayer153
+  - score: 321745
+    name: NewPlayer177
+  - score: 321312
+    name: NewPlayer49
+  - score: 321055
+    name: NewPlayer14
+  - score: 319725
+    name: NewPlayer64
+  - score: 319029
+    name: NewPlayer66
+  - score: 317840
+    name: NewPlayer124
+  - score: 317667
+    name: NewPlayer47
+  - score: 317594
+    name: NewPlayer46
+  - score: 316971
+    name: NewPlayer64
+  - score: 315326
+    name: NewPlayer49
+  - score: 315233
+    name: NewPlayer156
+  - score: 314793
+    name: NewPlayer46
+  - score: 314621
+    name: NewPlayer138
+  - score: 314558
+    name: NewPlayer137
+  - score: 314293
+    name: NewPlayer157
+  - score: 313486
+    name: NewPlayer78
+  - score: 313047
+    name: NewPlayer26
+  - score: 313024
+    name: NewPlayer81
+  - score: 312001
+    name: NewPlayer53
+  - score: 311351
+    name: NewPlayer17
+  - score: 310300
+    name: NewPlayer56
+  - score: 310089
+    name: NewPlayer7
+  - score: 309733
+    name: NewPlayer1
+  - score: 309502
+    name: NewPlayer88
+  - score: 309311
+    name: NewPlayer141
+  - score: 305577
+    name: NewPlayer113
+  - score: 305534
+    name: NewPlayer119
+  - score: 302985
+    name: NewPlayer22
+  - score: 301369
+    name: NewPlayer163
+  - score: 301175
+    name: NewPlayer26
+  - score: 300688
+    name: NewPlayer166
+  - score: 299982
+    name: NewPlayer177
+  - score: 298123
+    name: NewPlayer18
+  - score: 297690
+    name: NewPlayer196
+  - score: 297343
+    name: NewPlayer189
+  - score: 295489
+    name: NewPlayer170
+  - score: 293976
+    name: NewPlayer96
+  - score: 293954
+    name: NewPlayer35
+  - score: 293865
+    name: NewPlayer51
+  - score: 291394
+    name: NewPlayer105
+  - score: 291160
+    name: NewPlayer195
+  - score: 290894
+    name: NewPlayer183
+  - score: 290888
+    name: NewPlayer133
+  - score: 287567
+    name: NewPlayer46
+  - score: 287144
+    name: NewPlayer181
+  - score: 286750
+    name: NewPlayer164
+  - score: 284491
+    name: NewPlayer37
+  - score: 284389
+    name: NewPlayer176
+  - score: 284198
+    name: NewPlayer23
+  - score: 283818
+    name: NewPlayer178
+  - score: 282940
+    name: NewPlayer105
+  - score: 282564
+    name: NewPlayer168
+  - score: 282102
+    name: NewPlayer130
+  - score: 281908
+    name: NewPlayer126
+  - score: 280103
+    name: NewPlayer64
+  - score: 280100
+    name: NewPlayer153
+  - score: 277594
+    name: NewPlayer22
+  - score: 277293
+    name: NewPlayer23
+  - score: 277049
+    name: NewPlayer57
+  - score: 276089
+    name: NewPlayer16
+  - score: 275583
+    name: NewPlayer100
+  - score: 275270
+    name: NewPlayer166
+  - score: 275040
+    name: NewPlayer71
+  - score: 274321
+    name: NewPlayer160
+  - score: 273219
+    name: NewPlayer196
+  - score: 272244
+    name: NewPlayer156
+  - score: 269690
+    name: NewPlayer16
+  - score: 266794
+    name: NewPlayer190
+  - score: 266614
+    name: NewPlayer31
+  - score: 265953
+    name: NewPlayer52
+  - score: 265847
+    name: NewPlayer13
+  - score: 264256
+    name: NewPlayer65
+  - score: 263733
+    name: NewPlayer181
+  - score: 262803
+    name: NewPlayer42
+  - score: 261882
+    name: NewPlayer88
+  - score: 261759
+    name: NewPlayer3
+  - score: 260958
+    name: NewPlayer12
+  - score: 259662
+    name: NewPlayer58
+  - score: 258175
+    name: NewPlayer81
+  - score: 256978
+    name: NewPlayer26
+  - score: 256919
+    name: NewPlayer88
+  - score: 256270
+    name: NewPlayer97
+  - score: 255265
+    name: NewPlayer45
+  - score: 254052
+    name: NewPlayer151
+  - score: 254033
+    name: NewPlayer23
+  - score: 253985
+    name: NewPlayer33
+  - score: 253267
+    name: NewPlayer20
+  - score: 252418
+    name: NewPlayer112
+  - score: 251836
+    name: NewPlayer54
+  - score: 251136
+    name: NewPlayer192
+  - score: 250798
+    name: NewPlayer177
+  - score: 250418
+    name: NewPlayer98
+  - score: 250401
+    name: NewPlayer97
+  - score: 250081
+    name: NewPlayer191
+  - score: 249825
+    name: NewPlayer76
+  - score: 247199
+    name: NewPlayer23
+  - score: 247013
+    name: NewPlayer63
+  - score: 246635
+    name: NewPlayer150
+  - score: 245906
+    name: NewPlayer61
+  - score: 244802
+    name: NewPlayer180
+  - score: 244701
+    name: NewPlayer192
+  - score: 244477
+    name: NewPlayer141
+  - score: 243481
+    name: NewPlayer156
+  - score: 243335
+    name: NewPlayer68
+  - score: 243223
+    name: NewPlayer3
+  - score: 243131
+    name: NewPlayer165
+  - score: 242874
+    name: NewPlayer98
+  - score: 241908
+    name: NewPlayer188
+  - score: 241871
+    name: NewPlayer1
+  - score: 241347
+    name: NewPlayer69
+  - score: 240715
+    name: NewPlayer194
+  - score: 239337
+    name: NewPlayer30
+  - score: 238922
+    name: NewPlayer155
+  - score: 237625
+    name: NewPlayer51
+  - score: 237076
+    name: NewPlayer146
+  - score: 236315
+    name: NewPlayer112
+  - score: 236172
+    name: NewPlayer33
+  - score: 235939
+    name: NewPlayer50
+  - score: 235886
+    name: NewPlayer20
+  - score: 235165
+    name: NewPlayer97
+  - score: 234739
+    name: NewPlayer92
+  - score: 232794
+    name: NewPlayer64
+  - score: 232713
+    name: NewPlayer6
+  - score: 232548
+    name: NewPlayer78
+  - score: 232370
+    name: NewPlayer70
+  - score: 229940
+    name: NewPlayer13
+  - score: 227902
+    name: NewPlayer164
+  - score: 227061
+    name: NewPlayer107
+  - score: 226745
+    name: NewPlayer92
+  - score: 226003
+    name: NewPlayer145
+  - score: 225945
+    name: NewPlayer47
+  - score: 225654
+    name: NewPlayer73
+  - score: 225405
+    name: NewPlayer117
+  - score: 224398
+    name: NewPlayer75
+  - score: 223260
+    name: NewPlayer158
+  - score: 222769
+    name: NewPlayer123
+  - score: 222670
+    name: NewPlayer25
+  - score: 222466
+    name: NewPlayer158
+  - score: 222231
+    name: NewPlayer161
+  - score: 221807
+    name: NewPlayer98
+  - score: 221627
+    name: NewPlayer131
+  - score: 220498
+    name: NewPlayer29
+  - score: 220002
+    name: NewPlayer177
+  - score: 219555
+    name: NewPlayer1
+  - score: 219513
+    name: NewPlayer184
+  - score: 217713
+    name: NewPlayer78
+  - score: 217626
+    name: NewPlayer161
+  - score: 217356
+    name: NewPlayer51
+  - score: 216752
+    name: NewPlayer135
+  - score: 215548
+    name: NewPlayer129
+  - score: 215054
+    name: NewPlayer145
+  - score: 214562
+    name: NewPlayer191
+  - score: 214309
+    name: NewPlayer96
+  - score: 214299
+    name: NewPlayer131
+  - score: 213364
+    name: NewPlayer193
+  - score: 213213
+    name: NewPlayer98
+  - score: 213137
+    name: NewPlayer104
+  - score: 213123
+    name: NewPlayer31
+  - score: 212085
+    name: NewPlayer70
+  - score: 211453
+    name: NewPlayer175
+  - score: 211243
+    name: NewPlayer117
+  - score: 210927
+    name: NewPlayer135
+  - score: 209954
+    name: NewPlayer160
+  - score: 208962
+    name: NewPlayer63
+  - score: 208815
+    name: NewPlayer129
+  - score: 207850
+    name: NewPlayer7
+  - score: 207676
+    name: NewPlayer137
+  - score: 207591
+    name: NewPlayer179
+  - score: 206843
+    name: NewPlayer64
+  - score: 205402
+    name: NewPlayer46
+  - score: 203670
+    name: NewPlayer166
+  - score: 203285
+    name: NewPlayer159
+  - score: 203017
+    name: NewPlayer11
+  - score: 202101
+    name: NewPlayer130
+  - score: 200928
+    name: NewPlayer151
+  - score: 200533
+    name: NewPlayer144
+  - score: 199966
+    name: NewPlayer187
+  - score: 198777
+    name: NewPlayer21
+  - score: 198673
+    name: NewPlayer87
+  - score: 198308
+    name: NewPlayer154
+  - score: 198245
+    name: NewPlayer124
+  - score: 198156
+    name: NewPlayer17
+  - score: 197898
+    name: NewPlayer43
+  - score: 196730
+    name: NewPlayer160
+  - score: 195077
+    name: NewPlayer173
+  - score: 190366
+    name: NewPlayer151
+  - score: 189913
+    name: NewPlayer13
+  - score: 188209
+    name: NewPlayer30
+  - score: 188093
+    name: NewPlayer179
+  - score: 187552
+    name: NewPlayer53
+  - score: 186798
+    name: NewPlayer91
+  - score: 186689
+    name: NewPlayer101
+  - score: 186414
+    name: NewPlayer151
+  - score: 185100
+    name: NewPlayer140
+  - score: 184765
+    name: NewPlayer116
+  - score: 184511
+    name: NewPlayer137
+  - score: 184277
+    name: NewPlayer24
+  - score: 183732
+    name: NewPlayer112
+  - score: 183076
+    name: NewPlayer114
+  - score: 182906
+    name: NewPlayer113
+  - score: 182766
+    name: NewPlayer39
+  - score: 180598
+    name: NewPlayer170
+  - score: 179805
+    name: NewPlayer128
+  - score: 179714
+    name: NewPlayer86
+  - score: 178941
+    name: NewPlayer166
+  - score: 178811
+    name: NewPlayer15
+  - score: 178562
+    name: NewPlayer34
+  - score: 176361
+    name: NewPlayer124
+  - score: 176268
+    name: NewPlayer89
+  - score: 175455
+    name: NewPlayer45
+  - score: 175016
+    name: NewPlayer168
+  - score: 172086
+    name: NewPlayer156
+  - score: 171240
+    name: NewPlayer7
+  - score: 165516
+    name: NewPlayer76
+  - score: 165510
+    name: NewPlayer11
+  - score: 165360
+    name: NewPlayer164
+  - score: 165185
+    name: NewPlayer119
+  - score: 165088
+    name: NewPlayer153
+  - score: 165018
+    name: NewPlayer63
+  - score: 164606
+    name: NewPlayer76
+  - score: 164353
+    name: NewPlayer124
+  - score: 164211
+    name: NewPlayer31
+  - score: 162802
+    name: NewPlayer150
+  - score: 161793
+    name: NewPlayer94
+  - score: 160802
+    name: NewPlayer179
+  - score: 160099
+    name: NewPlayer151
+  - score: 159891
+    name: NewPlayer160
+  - score: 156936
+    name: NewPlayer31
+  - score: 154235
+    name: NewPlayer173
+  - score: 153883
+    name: NewPlayer196
+  - score: 153717
+    name: NewPlayer188
+  - score: 152974
+    name: NewPlayer182
+  - score: 152890
+    name: NewPlayer11
+  - score: 152822
+    name: NewPlayer120
+  - score: 152771
+    name: NewPlayer174
+  - score: 150808
+    name: NewPlayer90
+  - score: 150644
+    name: NewPlayer151
+  - score: 150085
+    name: NewPlayer151
+  - score: 149215
+    name: NewPlayer32
+  - score: 148849
+    name: NewPlayer69
+  - score: 148226
+    name: NewPlayer68
+  - score: 147319
+    name: NewPlayer5
+  - score: 144640
+    name: NewPlayer155
+  - score: 144451
+    name: NewPlayer31
+  - score: 143936
+    name: NewPlayer50
+  - score: 143365
+    name: NewPlayer144
+  - score: 142891
+    name: NewPlayer154
+  - score: 142748
+    name: NewPlayer156
+  - score: 142694
+    name: NewPlayer42
+  - score: 142507
+    name: NewPlayer153
+  - score: 142403
+    name: NewPlayer192
+  - score: 142145
+    name: NewPlayer111
+  - score: 142120
+    name: NewPlayer160
+  - score: 137378
+    name: NewPlayer191
+  - score: 137175
+    name: NewPlayer96
+  - score: 135965
+    name: NewPlayer175
+  - score: 135938
+    name: NewPlayer12
+  - score: 135006
+    name: NewPlayer47
+  - score: 133873
+    name: NewPlayer116
+  - score: 133616
+    name: NewPlayer118
+  - score: 132296
+    name: NewPlayer15
+  - score: 131904
+    name: NewPlayer147
+  - score: 130390
+    name: NewPlayer15
+  - score: 129936
+    name: NewPlayer37
+  - score: 129482
+    name: NewPlayer190
+  - score: 128446
+    name: NewPlayer88
+  - score: 127498
+    name: NewPlayer103
+  - score: 126724
+    name: NewPlayer26
+  - score: 125744
+    name: NewPlayer53
+  - score: 124893
+    name: NewPlayer177
+  - score: 124701
+    name: NewPlayer99
+  - score: 123707
+    name: NewPlayer106
+  - score: 122232
+    name: NewPlayer11
+  - score: 121982
+    name: NewPlayer60
+  - score: 120796
+    name: NewPlayer106
+  - score: 118422
+    name: NewPlayer23
+  - score: 118217
+    name: NewPlayer143
+  - score: 118158
+    name: NewPlayer174
+  - score: 118008
+    name: NewPlayer75
+  - score: 117553
+    name: NewPlayer28
+  - score: 115214
+    name: NewPlayer87
+  - score: 114317
+    name: NewPlayer84
+  - score: 112878
+    name: NewPlayer176
+  - score: 111190
+    name: NewPlayer173
+  - score: 111042
+    name: NewPlayer174
+  - score: 109928
+    name: NewPlayer192
+  - score: 108199
+    name: NewPlayer99
+  - score: 107523
+    name: NewPlayer79
+  - score: 106738
+    name: NewPlayer42
+  - score: 106354
+    name: NewPlayer92
+  - score: 105432
+    name: NewPlayer104
+  - score: 104816
+    name: NewPlayer4
+  - score: 103700
+    name: NewPlayer71
+  - score: 102261
+    name: NewPlayer23
+  - score: 101709
+    name: NewPlayer61
+  - score: 101401
+    name: NewPlayer96
+  - score: 100407
+    name: NewPlayer186
+  - score: 97740
+    name: NewPlayer188
+  - score: 96556
+    name: NewPlayer190
+  - score: 95658
+    name: NewPlayer144
+  - score: 95587
+    name: NewPlayer6
+  - score: 95257
+    name: NewPlayer76
+  - score: 94818
+    name: NewPlayer186
+  - score: 94520
+    name: NewPlayer169
+  - score: 94205
+    name: NewPlayer163
+  - score: 93223
+    name: NewPlayer118
+  - score: 92466
+    name: NewPlayer53
+  - score: 91954
+    name: NewPlayer9
+  - score: 91947
+    name: NewPlayer152
+  - score: 91384
+    name: NewPlayer192
+  - score: 90630
+    name: NewPlayer127
+  - score: 90396
+    name: NewPlayer112
+  - score: 90382
+    name: NewPlayer50
+  - score: 90109
+    name: NewPlayer56
+  - score: 89347
+    name: NewPlayer40
+  - score: 86129
+    name: NewPlayer162
+  - score: 83712
+    name: NewPlayer118
+  - score: 82801
+    name: NewPlayer108
+  - score: 82568
+    name: NewPlayer9
+  - score: 81130
+    name: NewPlayer50
+  - score: 81051
+    name: NewPlayer117
+  - score: 80706
+    name: NewPlayer110
+  - score: 79414
+    name: NewPlayer6
+  - score: 78182
+    name: NewPlayer165
+  - score: 76894
+    name: NewPlayer113
+  - score: 76839
+    name: NewPlayer185
+  - score: 75907
+    name: NewPlayer49
+  - score: 74804
+    name: NewPlayer55
+  - score: 74314
+    name: NewPlayer168
+  - score: 74029
+    name: NewPlayer175
+  - score: 73560
+    name: NewPlayer184
+  - score: 72322
+    name: NewPlayer197
+  - score: 71234
+    name: NewPlayer136
+  - score: 69425
+    name: NewPlayer95
+  - score: 68096
+    name: NewPlayer151
+  - score: 67602
+    name: NewPlayer157
+  - score: 67172
+    name: NewPlayer164
+  - score: 66481
+    name: NewPlayer90
+  - score: 65259
+    name: NewPlayer55
+  - score: 64773
+    name: NewPlayer147
+  - score: 63505
+    name: NewPlayer129
+  - score: 63411
+    name: NewPlayer187
+  - score: 63178
+    name: NewPlayer30
+  - score: 63166
+    name: NewPlayer102
+  - score: 62308
+    name: NewPlayer187
+  - score: 62222
+    name: NewPlayer187
+  - score: 61763
+    name: NewPlayer99
+  - score: 61467
+    name: NewPlayer178
+  - score: 61369
+    name: NewPlayer187
+  - score: 60925
+    name: NewPlayer116
+  - score: 60284
+    name: NewPlayer3
+  - score: 60231
+    name: NewPlayer173
+  - score: 59266
+    name: NewPlayer91
+  - score: 58996
+    name: NewPlayer174
+  - score: 58932
+    name: NewPlayer189
+  - score: 58874
+    name: NewPlayer87
+  - score: 58628
+    name: NewPlayer87
+  - score: 57521
+    name: NewPlayer47
+  - score: 56797
+    name: NewPlayer6
+  - score: 56479
+    name: NewPlayer155
+  - score: 55768
+    name: NewPlayer134
+  - score: 53777
+    name: NewPlayer67
+  - score: 51384
+    name: NewPlayer8
+  - score: 50898
+    name: NewPlayer146
+  - score: 49616
+    name: NewPlayer5
+  - score: 48570
+    name: NewPlayer181
+  - score: 48257
+    name: NewPlayer102
+  - score: 47197
+    name: NewPlayer92
+  - score: 46829
+    name: NewPlayer62
+  - score: 46633
+    name: NewPlayer72
+  - score: 45946
+    name: NewPlayer169
+  - score: 45849
+    name: NewPlayer144
+  - score: 43351
+    name: NewPlayer104
+  - score: 42666
+    name: NewPlayer138
+  - score: 41621
+    name: NewPlayer149
+  - score: 40996
+    name: NewPlayer29
+  - score: 39204
+    name: NewPlayer129
+  - score: 38447
+    name: NewPlayer6
+  - score: 38343
+    name: NewPlayer123
+  - score: 37894
+    name: NewPlayer168
+  - score: 37393
+    name: NewPlayer146
+  - score: 36782
+    name: NewPlayer7
+  - score: 35290
+    name: NewPlayer176
+  - score: 35169
+    name: NewPlayer171
+  - score: 35125
+    name: NewPlayer58
+  - score: 34968
+    name: NewPlayer4
+  - score: 34781
+    name: NewPlayer126
+  - score: 34490
+    name: NewPlayer156
+  - score: 31819
+    name: NewPlayer86
+  - score: 30565
+    name: NewPlayer129
+  - score: 29169
+    name: NewPlayer67
+  - score: 29006
+    name: NewPlayer83
+  - score: 28659
+    name: NewPlayer89
+  - score: 28082
+    name: NewPlayer4
+  - score: 26557
+    name: NewPlayer82
+  - score: 25824
+    name: NewPlayer196
+  - score: 24821
+    name: NewPlayer12
+  - score: 24701
+    name: NewPlayer47
+  - score: 24580
+    name: NewPlayer140
+  - score: 23732
+    name: NewPlayer188
+  - score: 21863
+    name: NewPlayer125
+  - score: 21512
+    name: NewPlayer45
+  - score: 21074
+    name: NewPlayer2
+  - score: 19613
+    name: NewPlayer23
+  - score: 18191
+    name: NewPlayer180
+  - score: 17928
+    name: NewPlayer6
+  - score: 17642
+    name: NewPlayer182
+  - score: 16664
+    name: NewPlayer53
+  - score: 13166
+    name: NewPlayer151
+  - score: 12321
+    name: NewPlayer90
+  - score: 7597
+    name: NewPlayer119
+  - score: 6822
+    name: NewPlayer116
+  - score: 6240
+    name: NewPlayer35
+  - score: 6240
+    name: NewPlayer153
+  - score: 5867
+    name: NewPlayer2
+  - score: 5822
+    name: NewPlayer38
+  - score: 5375
+    name: NewPlayer64
+  - score: 5106
+    name: NewPlayer142
+  - score: 4121
+    name: NewPlayer45
+  - score: 3514
+    name: NewPlayer49
+  - score: 3175
+    name: NewPlayer127
+  - score: 2660
+    name: NewPlayer32
+  - score: 2363
+    name: NewPlayer84
+  - score: 2300
+    name: NewPlayer15
+  - score: 2300
+    name: NewPlayer24
+  - score: 2300
+    name: NewPlayer168
+  - score: 370
+    name: NewPlayer130
+  - score: 263
+    name: NewPlayer76
+  - score: 245
+    name: NewPlayer180
+  - score: 245
+    name: NewPlayer157
+  - score: 175
+    name: NewPlayer136
+  - score: 86
+    name: NewPlayer103
+  - score: 55
+    name: NewPlayer75
+  - score: 55
+    name: NewPlayer82
+  - score: 55
+    name: NewPlayer130
+  - score: 55
+    name: NewPlayer100
+  - score: 55
+    name: NewPlayer161
+  - score: 55
+    name: NewPlayer130
+  - score: 55
+    name: NewPlayer76
+  - score: 0
+    name: User
+  - score: 0
+    name: NewPlayer122
+  - score: 0
+    name: NewPlayer178
+  - score: 0
+    name: NewPlayer171
+  isCheckPoint: 0000000000
